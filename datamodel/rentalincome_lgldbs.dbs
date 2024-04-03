@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="rentalincome_lgl" id="LogicalDesign-2228" database="LogicalDesign" >
+	<schema name="INSTANCE" catalogname="rentalincome_lgl" >
+		<table name="dim_buildingclass" prior="dim_building" >
+			<column name="buildingclass_ID" type="INT" jt="4" mandatory="y" />
+			<index name="pk_dim_buildingclass" unique="PRIMARY_KEY" >
+				<column name="buildingclass_ID" />
+			</index>
+		</table>
+		<table name="dim_condo" prior="Dim_Condo" >
+			<column name="condo_ID" prior="Condo_ID" type="INT" jt="4" mandatory="y" />
+			<index name="pk_dim_condo" unique="PRIMARY_KEY" >
+				<column name="condo_ID" />
+			</index>
+		</table>
+		<table name="dim_location" prior="Entity" >
+			<column name="location_ID" type="INT" jt="4" mandatory="y" />
+			<index name="pk_dim_location" unique="PRIMARY_KEY" >
+				<column name="location_ID" />
+			</index>
+		</table>
+		<table name="dim_yearbuilt" prior="dim_" >
+			<column name="yearbuilt_ID" type="INT" jt="4" mandatory="y" />
+			<index name="pk_dim_yearbuilt" unique="PRIMARY_KEY" >
+				<column name="yearbuilt_ID" />
+			</index>
+		</table>
+		<table name="facts_rentalincome" prior="facts_income" >
+			<column name="fact_ID" prior="rentalincome_ID" type="BIGINT" jt="-5" mandatory="y" />
+			<column name="total_units" type="INT" jt="4" />
+			<column name="condoID" prior="condo_ID" type="INT" jt="4" mandatory="y" />
+			<column name="yearbuiltID" prior="yearbuilt_ID" type="INT" jt="4" mandatory="y" />
+			<fk name="fk_facts_rentalincome_dim_condo" virtual="y" to_schema="rentalincome_lgl.INSTANCE" to_table="dim_condo" type="NonIdentifying" mandatory="y" cardinality="OneMore" range_from="0" range_to="0" >
+				<fk_column name="condoID" pk="condo_ID" />
+			</fk>
+			<fk name="fk_facts_rentalincome_dim_yearbuilt" virtual="y" to_schema="rentalincome_lgl.INSTANCE" to_table="dim_yearbuilt" type="NonIdentifying" mandatory="y" cardinality="OneMore" range_from="0" range_to="0" >
+				<fk_column name="yearbuiltID" pk="yearbuilt_ID" />
+			</fk>
+		</table>
+	</schema>
+	<layout name="Default Layout" id="Layout-216b" show_relation="columns" >
+		<entity schema="rentalincome_lgl.INSTANCE" name="dim_buildingclass" color="C1EEC1" x="170" y="204" />
+		<entity schema="rentalincome_lgl.INSTANCE" name="dim_condo" color="C1EEC1" x="697" y="187" />
+		<entity schema="rentalincome_lgl.INSTANCE" name="dim_location" color="C1EEC1" x="153" y="442" />
+		<entity schema="rentalincome_lgl.INSTANCE" name="dim_yearbuilt" color="C1EEC1" x="748" y="425" />
+		<entity schema="rentalincome_lgl.INSTANCE" name="facts_rentalincome" color="EEC1E3" x="425" y="340" />
+		<callout x="51" y="51" pointer="Round" >
+			<comment><![CDATA[This is a layout - a diagram with tools.
+- Create new entities by right-clicking the layout. 
+- Double-click entity headers to edit.
+- For a better understanding of the schema, create multiple layouts.
+- Deploy the model into the database by converting it first to the physical design.]]></comment>
+		</callout>
+	</layout>
+</project>
