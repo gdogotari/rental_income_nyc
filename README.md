@@ -7,11 +7,12 @@
 5) Dimensional Modeling
 
 Tableau links:
+
 COLUMN CHART
-https://public.tableau.com/views/AvgEstimatedGrossIncomeofcondosbyNeighborhoodNumberofUnitsinNYC/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/AvgEstimatedGrossIncomeofcondosbyNeighborhoodNumberofUnitsinNYC/viz1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
 PIE CHART
-https://public.tableau.com/views/Viz_17156254878740/Dashboard2?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/Viz_17156254878740/viz2?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
 LINE CHART
-https://public.tableau.com/views/Viz_17156388161160/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/GrossIncomeperSqFtinNYCbyStreetGrossSqFtofcondos/viz3?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
