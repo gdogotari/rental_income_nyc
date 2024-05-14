@@ -3,7 +3,7 @@
 1) Business Process
 2) Requirements. Condominium rental income in NYC. I want to find out the following:
     1. VIZ 1 - which neighborhood has the most and least gross income from condominium rentals and number of units
-    2. VIZ 2 - full market value per sqft for different buildings
+    2. VIZ 2 - full market value per sqft for different buildings class
     3. VIZ 3 - which address has the most and least gross income per sqft and the sqft sum for each address
     4. VIZ 4 - the average estimated gross income vs average net operating income for buildings built from 2012 to 2022
 3) Get Data and Profiling the Data. 
