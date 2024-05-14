@@ -9,10 +9,13 @@
 Tableau links:
 
 COLUMN CHART
-https://public.tableau.com/views/AvgEstimatedGrossIncomeofcondosbyNeighborhoodNumberofUnitsinNYC/viz1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/VIZ1_17157244208240/viz1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
 PIE CHART
-https://public.tableau.com/views/Viz_17156254878740/viz2?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/VIZ2_17157244478210/viz2?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
 LINE CHART
-https://public.tableau.com/views/GrossIncomeperSqFtinNYCbyStreetGrossSqFtofcondos/viz3?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/VIZ3_17157245629870/viz3?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
+
+LINE CHART
+https://public.tableau.com/views/VIZ4_17157247367920/viz4?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
