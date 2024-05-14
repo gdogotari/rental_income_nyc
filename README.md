@@ -11,14 +11,15 @@
 5) Dimensional Modeling
 6) I used PostgreSQL as a data warehouse for ETL
 7) Tableau links:
-COLUMN CHART
+   
+VIZ 1
 https://public.tableau.com/views/VIZ1_17157244208240/viz1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
-PIE CHART
+VIZ 2
 https://public.tableau.com/views/VIZ2_17157244478210/viz2?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
-LINE CHART
+VIZ 3
 https://public.tableau.com/views/VIZ3_17157245629870/viz3?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
-LINE CHART
+VIZ 4
 https://public.tableau.com/views/VIZ4_17157247367920/viz4?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
