@@ -1,18 +1,32 @@
 # rental_income_nyc
+
 1) Business Process
 Condominium rental income in NYC. I want to find out the following:
+
 VIZ 1 - which neighborhood has the most and least gross income from condominium rentals and number of units
+
 VIZ 2 - full market value per sqft for different buildings class
+
 VIZ 3 - which address has the most and least gross income per sqft and the sqft sum for each address
+
 VIZ 4 - the average estimated gross income vs average net operating income for buildings built from 2012 to 2022
+
 2) Requirements.
+   
 Extracting: Python Script
+
 Storing: Azure Blob
+
 Dimensional Modeling: DbSchema
+
 DW: Postegres
+
 Serving: Tableau
-3) Source: NYC Open Data 
+
+3) Source: NYC Open Data
+   
 4) Data Integration: ETL
+   
 5) Tableau links:
 
 VIZ 1
