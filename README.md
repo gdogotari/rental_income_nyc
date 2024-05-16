@@ -13,7 +13,8 @@ DW: Postegres
 Serving: Tableau
 3) Source: NYC Open Data 
 4) Data Integration: ETL
-5) Tableau links:   
+5) Tableau links:
+
 VIZ 1
 https://public.tableau.com/views/VIZ1_17157244208240/viz1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link
 
